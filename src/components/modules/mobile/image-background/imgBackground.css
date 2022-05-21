@@ -1,0 +1,29 @@
+#imageBackground {
+  background-image: url(../../../../assets/images/home/home-debora-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  top: 4rem;
+  height: 22rem;
+  width: 100vw;
+  z-index: 0;
+}
+
+@media (min-width: 670px) {
+  #imageBackground {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 780px) {
+  #imageBackground {
+    background-image: url(../../../../assets/images/home/home-debora.png);
+    background-position: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  #imageBackground {
+    height: 40rem;
+  }
+}
