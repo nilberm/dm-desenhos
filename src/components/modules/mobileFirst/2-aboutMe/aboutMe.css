@@ -1,0 +1,80 @@
+#aboutMe {
+  margin: 2.5rem 2rem 0 2rem;
+}
+
+#aboutMe-text h1 {
+  font-family: "Delius", cursive;
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3.3rem;
+}
+
+aboutMe-text p {
+  margin-bottom: 2.5rem;
+}
+
+#aboutMe-photo {
+  background-image: url(../../../../assets/images/about/about-debora-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 22rem;
+  margin: 2rem 0;
+}
+
+@media (min-width: 460px) {
+  #aboutMe-photo {
+    height: 24rem;
+  }
+}
+
+@media (min-width: 530px) {
+  #aboutMe-photo {
+    height: 28rem;
+  }
+}
+
+@media (min-width: 620px) {
+  #aboutMe-photo {
+    background-image: url(../../../../assets/images/about/about-debora.png);
+    height: 34rem;
+  }
+}
+
+@media (min-width: 710px) {
+  #aboutMe-photo {
+    height: 38rem;
+  }
+}
+
+@media (min-width: 790px) {
+  #aboutMe-photo {
+    height: 42rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #aboutMe {
+    display: flex;
+  }
+  #aboutMe-text {
+    width: 50%;
+    margin: 2rem 3rem;
+  }
+  #aboutMe-photo {
+    width: 50%;
+    margin: 2rem 3rem;
+    height: 26rem;
+    position: relative;
+  }
+  #aboutMe-photo::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #fadbcf;
+    top: 3%;
+    left: 3%;
+    z-index: -1;
+  }
+}

@@ -2,11 +2,10 @@
   background-image: url(../../../../assets/images/home/home-debora-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
-  position: static;
-  top: 4rem;
+  position: relative;
   height: 22rem;
   width: 100vw;
-  z-index: 0;
+  z-index: -1;
 }
 
 @media (min-width: 670px) {
