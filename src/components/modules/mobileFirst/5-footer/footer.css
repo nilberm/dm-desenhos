@@ -1,0 +1,81 @@
+#footer {
+  background: #404040;
+  text-align: center;
+}
+
+section #footer-box {
+  margin: 0 4.8rem 0 4.8rem;
+  padding: 2rem 0 2rem 0;
+}
+section #logo-footer {
+  display: flex;
+  justify-content: center;
+}
+section #logo-footer img {
+  width: 100%;
+}
+
+section #social-medias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+section #social-medias a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+
+section #social-medias p {
+  color: #fff;
+  position: relative;
+  font-size: 1rem;
+}
+section #social-medias .icon-style {
+  width: 4.2rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  margin: 0 1.25rem 0 1.25rem;
+  line-height: 1.5rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (min-width: 620px) {
+  section #social-medias p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 710px) {
+  section #social-medias p {
+    font-size: 1rem;
+  }
+  footer {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  section #social-medias {
+    display: flex;
+    flex-direction: row;
+  }
+}

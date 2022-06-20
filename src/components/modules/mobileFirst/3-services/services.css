@@ -1,0 +1,128 @@
+#services {
+  margin: 2.5rem 2rem 0 2rem;
+}
+
+#text-services {
+  text-align: center;
+}
+
+#text-services h1 {
+  margin: 3.3rem 0 1rem 0;
+}
+
+#text-services p {
+  margin-bottom: 3.5rem;
+}
+
+.h1 h1 {
+  font-family: "Delius", cursive;
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3.3rem;
+}
+
+.container-box h2 {
+  font-family: "Delius", cursive;
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+#dm-image {
+  background-image: url(../../../../assets/images/services/DM-style.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+  box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+}
+
+#realist-image {
+  background-image: url(../../../../assets/images/services/realistic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+  box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+}
+
+#kawai-image {
+  background-image: url(../../../../assets/images/services/kawai.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+  box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 6px 7px 13px -2px rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 460px) {
+  #dm-image,
+  #realist-image,
+  #kawai-image {
+    height: 22rem;
+  }
+}
+
+@media (min-width: 530px) {
+  #dm-image,
+  #realist-image,
+  #kawai-image {
+    height: 24rem;
+  }
+}
+
+@media (min-width: 620px) {
+  #dm-image,
+  #realist-image,
+  #kawai-image {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 710px) {
+  .container-box {
+    display: flex;
+    justify-content: center;
+  }
+  #dm-image,
+  #realist-image,
+  #kawai-image {
+    height: 10rem;
+    width: 12rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #dm-image,
+  #realist-image,
+  #kawai-image {
+    height: 16rem;
+    width: 18rem;
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  #services p {
+    font-size: 1.3rem;
+  }
+  #dm-image,
+  #realist-image,
+  #kawai-image {
+    height: 22rem;
+    width: 24rem;
+    margin: 0 3rem;
+  }
+  .h1 h1 {
+    font-size: 4rem;
+  }
+  .container-box h2 {
+    font-size: 3rem;
+  }
+}

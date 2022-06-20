@@ -31,10 +31,16 @@ export default function Menu() {
       <img id="logo" src={logo} alt="logo" />
       {(toggleMenu || screenWith > 780) && (
         <ul className="list">
-          <li className="items">Home</li>
-          <li className="items">Serviços</li>
+          <li className="items">
+            <a href="#imageBackground">Home</a>
+          </li>
+          <li className="items">
+            <a href="#services">Serviços</a>
+          </li>
           <li className="items">Testemunhos</li>
-          <li className="items">Contato</li>
+          <li className="items">
+            <a href="#footer">Contato</a>
+          </li>
         </ul>
       )}
       <div className="social-icons">
