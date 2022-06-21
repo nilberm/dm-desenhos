@@ -1,4 +1,5 @@
 import "./services.css";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -15,28 +16,28 @@ const Services = () => {
       <div id="services-box">
         <div className="container-box">
           <div>
-            <a href="#">
+            <Link to="/">
               <div id="dm-image"></div>
               <span>
                 <h2>DM Style</h2>
               </span>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="#">
+            <Link to="/desenhos/realista">
               <div id="realist-image"></div>
               <span>
                 <h2>Realista</h2>
               </span>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="#">
+            <Link to="/">
               <div id="kawai-image"></div>
               <span>
                 <h2>Kawai</h2>
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

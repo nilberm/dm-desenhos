@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import BTN from "../../../assets/images/menu/button.png";
 import logo from "../../../assets/images/logo/logo-square.png";
@@ -32,14 +33,13 @@ export default function Menu() {
       {(toggleMenu || screenWith > 780) && (
         <ul className="list">
           <li className="items">
-            <a href="#imageBackground">Home</a>
+            <Link to={"/"}>Home</Link>
           </li>
           <li className="items">
-            <a href="#services">Serviços</a>
+            <Link to={"/"}>Encomendas</Link>
           </li>
-          <li className="items">Testemunhos</li>
           <li className="items">
-            <a href="#footer">Contato</a>
+            <Link to={"/"}>Contato</Link>
           </li>
         </ul>
       )}

@@ -1,21 +1,24 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Menu from "./components/modules/menu/menu";
-import ImageBackgroundMobile from "./components/modules/mobileFirst/1-image-background/imageBackground";
-import AboutMe from "./components/modules/mobileFirst/2-aboutMe/aboutMe";
-import Services from "./components/modules/mobileFirst/3-services/services";
-import Footer from "./components/modules/mobileFirst/5-footer/footer";
+import Menu from "./components/layouts/menu/menu";
+import Footer from "./components/layouts/footer/footer";
+import Home from "./components/pages/Home/Home";
+import Realistic from "./components/pages/Shop/realistic";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Menu />
-      <ImageBackgroundMobile />
-      <AboutMe />
-      <Services />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/desenhos/realista" element={<Realistic />} />
+      </Routes>
+
       <Footer />
-    </div>
+    </Router>
   );
 }
 

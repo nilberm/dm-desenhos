@@ -1,4 +1,5 @@
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,39 +7,39 @@ const Footer = () => {
       <section id="footer">
         <div id="footer-box">
           <div id="logo-footer">
-            <a href="#">
+            <Link to="/">
               <div id="logo-dm-footer"></div>
-            </a>
+            </Link>
           </div>
           <div id="social-medias">
-            <a href="#">
+            <Link to="/">
               <p className="icon-style">
                 <i className="fa-brands fa-facebook fa-3x"></i>
               </p>
 
               <p>fb.com/dmdesenhos</p>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <p className="icon-style">
                 <i className="fa-brands fa-instagram fa-3x"></i>
               </p>
 
               <p>@dmdesenhos</p>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <p className="icon-style">
                 <i className="fa-brands fa-whatsapp fa-3x"></i>
               </p>
 
               <p>+55 85 98888-8888</p>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/">
               <p className="icon-style">
                 <i className="fa-brands fa-youtube fa-3x"></i>
               </p>
 
               <p>yt.com/dmdesenhos</p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
