@@ -6,7 +6,7 @@ import wpp from "../../../assets/images/logo/whatsapp.png";
 import insta from "../../../assets/images/logo/instagram.png";
 import "./menu.css";
 
-export default function Menu() {
+export default function MenuEncomenda() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWith, setScreenWidth] = useState(window.innerWidth);
 
@@ -30,10 +30,7 @@ export default function Menu() {
     return (
       <ul className="list">
         <li className="items">
-          <a href="#aboutMe">Home</a>
-        </li>
-        <li className="items">
-          <a href="#services">Encomendas</a>
+          <Link to={"/"}>Home</Link>
         </li>
         <li className="items">
           <a href="#footer">Contato</a>
