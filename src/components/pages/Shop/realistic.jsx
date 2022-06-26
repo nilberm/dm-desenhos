@@ -12,7 +12,7 @@ const Realistic = () => {
       <MenuEncomenda />
       <TitleItem name="Desenho Realista" />
       <ImageItem source={ImageRealistic} alt="Desenho realista" />
-      <Forms />
+      <Forms size="Meio Corpo" />
     </div>
   );
 };

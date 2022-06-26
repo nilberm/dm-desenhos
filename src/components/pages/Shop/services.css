@@ -6,3 +6,87 @@
 #imgItem {
   width: 100%;
 }
+
+#formCard {
+  background: #fadbcf;
+  padding: 3rem 3rem;
+  margin-top: -1rem;
+}
+
+#formCard h2 {
+  font-family: "Delius", cursive;
+  margin-bottom: 1rem;
+}
+
+#formCard p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+#formCard .btnContainer {
+  display: flex;
+  margin: 0.5rem 0 1rem 0;
+}
+
+#formCard .btnContainer p {
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+#formCard .btn-Shop {
+  border: 1px black solid;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.sizeValue {
+  color: black;
+  font-size: 0.8rem;
+}
+.sizeValue span {
+  color: #505050ab;
+  font-size: 0.7rem;
+}
+
+#radioInput {
+  margin-top: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#radioInput .radioItems {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#radioInput .radioItems label {
+  font-family: "Delius", cursive;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+#amountPet {
+  margin: 2rem 0;
+}
+
+#petInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#petInfo #petText {
+  font-family: "Delius", cursive;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#petInfo #infoPrice {
+  font-family: sans-serif;
+  font-size: 0.5rem;
+  width: 50%;
+  text-align: end;
+}
