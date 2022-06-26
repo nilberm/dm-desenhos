@@ -1,6 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Forms = (props) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
+  const [amountPeople, setAmountPeople] = useState(1);
+  const [amountPet, setAmountPet] = useState(0);
+
+  const increPeople = () => {
+    setAmountPeople(amountPeople + 1);
+  };
+
+  const decrePeople = () => {
+    if (amountPeople > 1) {
+      setAmountPeople(amountPeople - 1);
+    } else {
+      setAmountPeople(1);
+    }
+  };
+
+  const increPet = () => {
+    setAmountPet(amountPet + 1);
+  };
+
+  const decrePet = () => {
+    if (amountPet > 0) {
+      setAmountPet(amountPet - 1);
+    } else {
+      setAmountPet(0);
+    }
+  };
+
   return (
     <div id="formCard">
       <h2 id="price">R${props.price}</h2>
@@ -8,7 +39,7 @@ const Forms = (props) => {
         Desenho Realista, bla bla bla bla bla bla bla bla bla bla bla bla bla
         bla bla bla bla
       </p>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div id="sizeContainer">
           <label className="sizeValue">
             <span>Tamanho: </span>
@@ -55,11 +86,19 @@ const Forms = (props) => {
           </label>
           <br></br>
           <div className="btnContainer">
-            <button id="decreaseAmount" className="btn-Shop">
+            <button
+              id="decreaseAmount"
+              className="btn-Shop"
+              onClick={decrePeople}
+            >
               -
             </button>
-            <p id="amountValue">01</p>
-            <button id="increaseAmount" className="btn-Shop">
+            <p id="amountValue">{amountPeople}</p>
+            <button
+              id="increaseAmount"
+              className="btn-Shop"
+              onClick={increPeople}
+            >
               +
             </button>
           </div>
@@ -75,15 +114,24 @@ const Forms = (props) => {
           </label>
           <br></br>
           <div className="btnContainer">
-            <button id="decreaseAmountPet" className="btn-Shop">
+            <button
+              id="decreaseAmountPet"
+              className="btn-Shop"
+              onClick={decrePet}
+            >
               -
             </button>
-            <p id="amountPetValue">00</p>
-            <button id="increaseAmountPet" className="btn-Shop">
+            <p id="amountPetValue">{amountPet}</p>
+            <button
+              id="increaseAmountPet"
+              className="btn-Shop"
+              onClick={increPet}
+            >
               +
             </button>
           </div>
         </div>
+        <input type="submit" value="Finalizar Orçamento" />
       </form>
     </div>
   );
