@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Dm desenhos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Minha irmã trabalha fazendo desenhos digitais por ecomenda, então para ajudar ela e para praticar e aprender resolvir criar um site para ela onde ela poderia mostrar um pouco do trabalho dela junto com receber encomendas através do site.
 
-## Available Scripts
+Inicialmente fiz o site só com html, css e js, mas conforme fui aprendendo outras coisas fui melhorando ele, hoje ele está sendo escrito usando ReactJs. Sou bem iniciante com ReactJs então estou aprendendo muito junto com a criação do site.
 
-In the project directory, you can run:
+Está "pronto" agora apenas a página home mas ainda tem muito que quero melhorar nela. Estou já desenvolvendo a página que vai ser feito as encomendas.
 
-### `npm start`
+### Aqui está como está ficando a parte que já está "pronta":
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![img](https://i.imgur.com/zC5kS5o.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![img](https://i.imgur.com/U5BhvUj.png)
 
-### `npm test`
+![img](https://i.imgur.com/I21pMXA.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![img](https://i.imgur.com/qIkzheK.png)
 
-### `npm run build`
+### Aqui está como está ficando a criação do design da página de encomendas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Essa parte que crio antes de escrever o código eu uso o Figma.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![img](https://i.imgur.com/9b3F4ez.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![img](https://i.imgur.com/MDaDWYe.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pretendo no futuro fazer a integração para fazer o pagamento direto pelo site, mas por agora pretendo só fazer a pessoa selecionar o tipo de desenho que ela quer, o tamanho e as pessoas para saber qual vai ser o valor do desenho e direcionar a pessoa para o WhatsApp da minha irmã com a mensagem de compra já feita com todas as informações que a pessoa preencheu.
